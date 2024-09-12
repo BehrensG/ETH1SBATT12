@@ -602,6 +602,10 @@
     [
       "e5033c24-3fc3-4959-9c90-ec7b4f122317",
       "CAN"
+    ],
+    [
+      "7e830670-3ea3-4995-b85e-fb10b92d4f58",
+      "Module Connector"
     ]
   ],
   "text_variables": {}

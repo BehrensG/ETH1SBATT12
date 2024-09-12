@@ -250,6 +250,44 @@
 		)
 	)
 	(sheet
+		(at 93.98 101.6)
+		(size 27.94 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7e830670-3ea3-4995-b85e-fb10b92d4f58")
+		(property "Sheetname" "Module Connector"
+			(at 93.98 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ModuleConnector.kicad_sch"
+			(at 93.98 130.1246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ETH1SBATT12"
+				(path "/65cd6103-a85c-466d-b20c-84253dfc9c3b"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 132.08 58.42)
 		(size 40.64 30.48)
 		(fields_autoplaced yes)

@@ -1,0 +1,491 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "65cd6103-a85c-466d-b20c-84253dfc9c3b")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 177.8 58.42)
+		(size 33.02 30.48)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2411c06e-bc5c-4145-869b-f58cbeec099c")
+		(property "Sheetname" "Ethernet"
+			(at 177.8 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Ethernet.kicad_sch"
+			(at 177.8 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "REF_CLK" bidirectional
+			(at 177.8 62.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1d8454de-bc33-451e-b9a3-92ac12970cf9")
+		)
+		(pin "RMII_MDIO" bidirectional
+			(at 177.8 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7388fe4e-ef4c-4105-aa23-6b6f42c90ba4")
+		)
+		(pin "RMII_MDC" bidirectional
+			(at 177.8 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e902bba1-780e-4eeb-8668-a7057cf9aa4f")
+		)
+		(pin "NRST" bidirectional
+			(at 177.8 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "af7f7210-bf5e-4957-a95e-2f6a1c0c3273")
+		)
+		(pin "RMII_TXD1" bidirectional
+			(at 177.8 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3f3f9fed-019b-4b21-aa79-96455a1571f7")
+		)
+		(pin "RMII_CRS_DV" bidirectional
+			(at 177.8 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4ec3e617-a7b9-4c43-9be1-a99c24a13926")
+		)
+		(pin "RMII_RXD1" bidirectional
+			(at 177.8 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "76760b32-48c1-4019-8699-ce282842826e")
+		)
+		(pin "RMII_TXD0" bidirectional
+			(at 177.8 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "145a19d3-2c83-480b-b581-8af1f7c10be6")
+		)
+		(pin "RMII_TXEN" bidirectional
+			(at 177.8 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b95e8146-0eb2-4e5d-82f9-813065ab21d8")
+		)
+		(pin "RMII_RXD0" bidirectional
+			(at 177.8 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "50fd63a6-743e-43dc-b60e-8a9329052340")
+		)
+		(instances
+			(project "ETH1SBATT12"
+				(path "/65cd6103-a85c-466d-b20c-84253dfc9c3b"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 50.8)
+		(size 22.86 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3e651df3-0566-4309-89d7-38ab8df0476f")
+		(property "Sheetname" "Cell 1"
+			(at 76.2 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Cell1.kicad_sch"
+			(at 76.2 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CELL_C1" bidirectional
+			(at 76.2 54.61 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "566b0f32-6ff3-4edd-a3b5-9c3a6cfc2730")
+		)
+		(pin "CANH_C1" bidirectional
+			(at 99.06 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f8a333e4-84ae-4134-9295-d083c4146b18")
+		)
+		(pin "CANL_C1" bidirectional
+			(at 99.06 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8ad603bd-f2fc-4382-87a8-eec7f48f3fa1")
+		)
+		(instances
+			(project "ETH1SBATT12"
+				(path "/65cd6103-a85c-466d-b20c-84253dfc9c3b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 142.24 113.03)
+		(size 68.58 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4d58e4a8-4d9c-4305-8610-7e2299c38173")
+		(property "Sheetname" "Power"
+			(at 142.24 112.3184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 142.24 151.7146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ETH1SBATT12"
+				(path "/65cd6103-a85c-466d-b20c-84253dfc9c3b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 132.08 58.42)
+		(size 40.64 30.48)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8af6cdce-6a4f-44e7-a435-13226720c781")
+		(property "Sheetname" "MCU"
+			(at 132.08 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 132.08 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "NRST" bidirectional
+			(at 172.72 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f1f1501d-68a3-44da-af3d-0ee935ced3ba")
+		)
+		(pin "RMII_MDIO" bidirectional
+			(at 172.72 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cb11db3e-e474-426d-a94e-9c584e614e2a")
+		)
+		(pin "RMII_CRS_DV" bidirectional
+			(at 172.72 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4d7a9b0e-df8a-4f1e-bd8a-d773aae5cdfe")
+		)
+		(pin "REF_CLK" bidirectional
+			(at 172.72 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "40b0cd02-2d38-4d2c-a44b-852c6fd1d508")
+		)
+		(pin "RMII_TXD1" bidirectional
+			(at 172.72 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e2231d12-8430-416c-ac26-8cef9b8584d9")
+		)
+		(pin "RMII_TXEN" bidirectional
+			(at 172.72 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ce5ccaef-f399-4f20-8049-c4c95cdaac6f")
+		)
+		(pin "RMII_TXD0" bidirectional
+			(at 172.72 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c6ca03f2-e022-4178-857a-7b7a754e4666")
+		)
+		(pin "RMII_MDC" bidirectional
+			(at 172.72 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ba38ba24-2312-4106-9fbe-6f0659595b56")
+		)
+		(pin "RMII_RXD0" bidirectional
+			(at 172.72 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c2bf8df2-3197-4d82-975e-611d90db309d")
+		)
+		(pin "RMII_RXD1" bidirectional
+			(at 172.72 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "446b2185-6dde-466f-a1f8-70597931f10c")
+		)
+		(instances
+			(project "ETH1SBATT12"
+				(path "/65cd6103-a85c-466d-b20c-84253dfc9c3b"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 40.64 59.69)
+		(size 25.4 40.64)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cfacee73-b395-42e1-9206-4e9c04483aa0")
+		(property "Sheetname" "Output"
+			(at 40.64 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Output.kicad_sch"
+			(at 40.64 100.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ETH1SBATT12"
+				(path "/65cd6103-a85c-466d-b20c-84253dfc9c3b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 96.52)
+		(size 33.02 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e5033c24-3fc3-4959-9c90-ec7b4f122317")
+		(property "Sheetname" "CAN"
+			(at 177.8 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN.kicad_sch"
+			(at 177.8 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CANL" bidirectional
+			(at 177.8 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "af0b8891-4fa5-4307-a43b-7eb029081ba8")
+		)
+		(pin "CANH" bidirectional
+			(at 177.8 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "66ecd20f-7069-43f3-98f5-873465331cc4")
+		)
+		(instances
+			(project "ETH1SBATT12"
+				(path "/65cd6103-a85c-466d-b20c-84253dfc9c3b"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
